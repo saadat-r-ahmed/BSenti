@@ -21,8 +21,8 @@ setup(
     long_description_content_type="text/markdown",
     long_description=long_description,
     packages=find_packages(),
-    install_requires=['opencv-python', 'pyautogui', 'pyaudio', 'pandas'],
-    keywords=['python', 'video', 'stream', 'video stream', 'camera stream', 'sockets'],
+    install_requires=['pandas', 'joblib'],
+    keywords=['python', 'sentiment classification', 'nlp'],
     classifiers=[
         "Development Status :: 1 - Planning",
         "Intended Audience :: Developers",
